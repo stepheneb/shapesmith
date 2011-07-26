@@ -1,5 +1,5 @@
-@font-face { font-family: luxi-sans; src: url('/fonts/luxisr.ttf'); } 
-@font-face { font-family: luxi-serif; src: url('/fonts/luxirr.ttf'); } 
+@font-face { font-family: luxi-sans; src: url('fonts/luxisr.ttf'); } 
+@font-face { font-family: luxi-serif; src: url('fonts/luxirr.ttf'); } 
 
 body {
     background-color: #000011;
