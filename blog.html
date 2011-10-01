@@ -1,0 +1,27 @@
+---
+layout: layout
+title: Shapesmith Blog
+---
+
+<div class="row">
+  <div class="twocol">
+  </div>
+
+  <div class="eightcol">
+    
+   <ul class="posts">
+      {% for post in site.posts %}
+      <li>
+	{{ post.date | date: "%B %e, %Y" }}<span><a href="{{ post.url }}">{{ post.title }}</a></span>
+     </li>
+      {% endfor %}
+    </ul>
+    </div>
+     
+    </div>
+    <div class="twocol last">
+    </div>
+  </div>
+
+
+

@@ -1,10 +1,7 @@
-@font-face { font-family: luxi-sans; src: url('/fonts/luxisr.ttf'); } 
-@font-face { font-family: luxi-serif; src: url('/fonts/luxirr.ttf'); } 
-
 body {
     background-color: #080808;
-    color: white;
-    font-family: luxi-serif,serif;
+    color: #eeeeee;
+    font-family: Helvetica, Arial, sans-serif;
     font-style: normal;
 }
 
@@ -13,9 +10,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: luxi-sans,sans-serif;
-  font-style: normal;
-  font-weight: 500;
+    font-style: bold;
+    margin-bottom: 0.5em;
+}
+
+.menu a {
+    font-size: 1.5em;
+    margin-right: 1em;
 }
 
 div, p {
@@ -27,11 +28,11 @@ ol {
 }
 
 a:visited, a:link {
-    color: #00CC00;
+    color: #2DD700;
 }
 
-h1 a:visited, h1 a:link {
-    color: white;
+.menu a:visited, .menu a:link, h2 a:visited, h2 a:link {
+    color: #eeeeee;
     text-decoration:none;
 }
 
@@ -48,10 +49,47 @@ h1 a:hover {
     text-align: center;
 }
 
+.posts span {
+    padding: 1em;
+}
 
+/* http://css-tricks.com/examples/ButtonMaker/# */
 
+.button {
+    border-top: 1px solid #c5ffc2;
+    background: #248a24;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4ce051), to(#248a24));
+    background: -webkit-linear-gradient(top, #4ce051, #248a24);
+    background: -moz-linear-gradient(top, #4ce051, #248a24);
+    background: -ms-linear-gradient(top, #4ce051, #248a24);
+    background: -o-linear-gradient(top, #4ce051, #248a24);
+    padding: 9.5px 19px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #eeeeee;
+    font-size: 19px;
+    text-decoration: none;
+    vertical-align: middle;
+}
 
-	
+a.button:visited, a.button:link {
+    color: #eeeeee;
+}
+
+.button:hover {
+    border-top-color: #fafafa;
+    background: #fafafa;
+    color: #141414;
+}
+.button:active {
+    border-top-color: #f2f5f2;
+    background: #f2f5f2;
+}	
 
 
 

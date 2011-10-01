@@ -3,26 +3,42 @@ layout: layout
 title: Shapesmith Blog
 ---
 
-{% for post in site.posts limit:5 %}
-<h1><a href="{{ post.url }}">{{post.title }}</a></h1>
-<h4>Posted on {{ post.date | date_to_string }} by <a href="http://twitter.com/bjnortier">Benjamin Nortier</a></h4>
-<script>
-  var idcomments_acct = 'cb1078b244d71cf4fd087c5c9f074195';
-  var idcomments_post_id;
-  var idcomments_post_url;
-</script>
-<script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
+<div class="row">
+  <div class="twocol">
+  </div>
+  <div class="eightcol">
 
-<div class="post-content">
-  {{ post.content }}
+    <div class="welcome">
+      <p>I'm building Shapesmith to be a free and open source 3D modelling project. It's aim is to make designing 3D printable models accessible to anyone with a modern browser (that supports WebGL). Right now you can draw shapes using primitives, perform boolean operations, do transformations, and export your models to STL format. See the <a href="/blog.index.html">blog</a> for details on recent changes.</p>
+      <p><a href="mailto:bjnortier@shapesmith.net">Feedback</a> would be very much appreciated!</p>
+      <p>- Benjamin Nortier</br><a href="mailto:bjnortier@shapesmith.net">bjnortier@shapesmith.net</a></br><a href="http://www.twitter.com/bjnortier">@bjnortier</a></p>
+															      
+    </div>
+  </div>
+  <div class="twocol last">
+  </div>
 </div>
 
-<script>
-  var idcomments_acct = 'cb1078b244d71cf4fd087c5c9f074195';
-  var idcomments_post_id;
-  var idcomments_post_url;
-</script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
-{% endfor %}
+<div class="row">
+  <div class="twocol">
+  </div>
+  <div class="fourcol">
+    <h2><a class="button" href="http://github.com/bjnortier/shapesmith">Get it from github</a></h2>
+    <p>You can download and install Shapesmith from github.</p>
+    <p>Instructions for doing so on MacOSX and Ubuntu are available, but should be similar on other Linux platforms.</p>
+    <p>Installing it locally will produce much faster results that trying it out online.<p>
+</div>
+  <div class="fourcol">
+    <h2><a class="button" href="http://modeller.shapesmith.net">Try it</a></h2>
+    <p>I've installed a recent version (0.2) on an Amazon EC2 instance for you to try.</p>
+    <p>It's not a very powerful machine, so performance is unfortunately not fantastic.</p>
+    <p>Have fun!</p>
+    
+  </div>
+    
+
+  </div>
+  <div class="twocol last">
+  </div>
+</div>
 
