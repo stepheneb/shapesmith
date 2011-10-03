@@ -49,8 +49,10 @@ h1 a:hover {
     text-align: center;
 }
 
-.posts span {
-    padding: 1em;
+.posts span.date {
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 0.8em;
+    margin-right: 1em;
 }
 
 /* http://css-tricks.com/examples/ButtonMaker/# */

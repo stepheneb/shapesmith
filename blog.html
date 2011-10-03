@@ -9,19 +9,19 @@ title: Shapesmith Blog
 
   <div class="eightcol">
     
-   <ul class="posts">
+    <ul class="posts">
       {% for post in site.posts %}
       <li>
-	{{ post.date | date: "%B %e, %Y" }}<span><a href="{{ post.url }}">{{ post.title }}</a></span>
-     </li>
+	<span class="date">{{ post.date | date:"%Y-%m-%d"" }}</span><span><a href="{{ post.url }}">{{ post.title }}</a></span>
+      </li>
       {% endfor %}
     </ul>
-    </div>
-     
-    </div>
-    <div class="twocol last">
-    </div>
   </div>
+  
+</div>
+<div class="twocol last">
+</div>
+</div>
 
 
 
